@@ -15,11 +15,11 @@ public class Ex2 {
         // Decimal format
         DecimalFormat df = new DecimalFormat("#,##0.00");
         // Constant variables
-        final double GROSS_THRESHOLD = 50000.00;
+        final double GROSS_THRESHOLD = 50000.0;
         final double TAX_SINGLE = .2;
         final double TAX_MARRIED = .23;
-        final double ALLOWANCE_MORE_THAN_50 = 20000.00;
-        final double ALLOWANCE_LESS_THAN_50 = 25000.00;
+        final double ALLOWANCE_MORE_THAN_50 = 20000.0;
+        final double ALLOWANCE_LESS_THAN_50 = 25000.0;
         final String PASSWORD = "password";
         // Variable declaration and initialisation
         int employeeID;
@@ -31,7 +31,6 @@ public class Ex2 {
         double tax = 0;
         double netPay = 0;
         String inputPassword;
-
 
         // User input
         System.out.print("Enter employee ID: ");
@@ -56,7 +55,7 @@ public class Ex2 {
             taxablePay = grossPay - ALLOWANCE_LESS_THAN_50;
         } else if (grossPay >= GROSS_THRESHOLD) {
             taxablePay = grossPay - ALLOWANCE_MORE_THAN_50;
-        }
+        }// if-else
 
         if (maritalStatus == 's') {
             tax = taxablePay * TAX_SINGLE;
@@ -67,12 +66,12 @@ public class Ex2 {
         }// if-else
 
         // Output
-        System.out.printf("[ Payroll Details for Employee %d ]\n\n", employeeID);
-        System.out.println("Employee ID:\t\t" + employeeID);
-        System.out.println("Employee Name:\t\t" + name);
-        System.out.println("Employee Address:\t" + address);
-        System.out.println("Marital Status:\t\t" + (maritalStatus == 's' ? "Single": "Married"));
-        System.out.println("Gross Pay:\t\t\t€" + df.format(grossPay));
+        System.out.printf("\n[ Payroll Details for Employee %d ]\n\n", employeeID);
+        System.out.printf("%-20s%-20s\n", "Employee ID:", employeeID);
+        System.out.printf("%-20s%-20s\n", "Employee Name:", name);
+        System.out.printf("%-20s%-20s\n", "Employee Address:", address);
+        System.out.printf("%-20s%-20s\n", "Marital Status:", (maritalStatus == 's' ? "Single": "Married"));  // Ternary
+        System.out.printf("%-20s€%-20s\n", "Gross Pay:", df.format(grossPay));
 
         System.out.printf("\nFor gross €%s, your total tax is €%s and net pay is €%s\n", df.format(grossPay),
                 df.format(tax), df.format(netPay));
@@ -85,6 +84,6 @@ public class Ex2 {
             System.out.println("Password matched!");
         } else {
             System.out.println("Password DID NOT match!");
-        }
+        }// if-else
     }// Main
 }// Class - Ex2
