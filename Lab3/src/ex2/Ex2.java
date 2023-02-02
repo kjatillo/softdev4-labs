@@ -1,5 +1,6 @@
 package ex2;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -11,6 +12,8 @@ public class Ex2 {
     public static void main(String[] args) {
         // Scanner
         Scanner input = new Scanner(System.in);
+        // Decimal format
+        DecimalFormat df = new DecimalFormat("#,##0.00");
         // Constant variables
         final double GROSS_THRESHOLD = 50000.00;
         final double TAX_SINGLE = .2;
@@ -46,6 +49,7 @@ public class Ex2 {
 
         System.out.print("Enter employee gross pay: ");
         grossPay = input.nextDouble();
+        input.nextLine();
 
         // Calculation
         if (grossPay < GROSS_THRESHOLD) {
@@ -67,15 +71,15 @@ public class Ex2 {
         System.out.println("Employee ID:\t\t" + employeeID);
         System.out.println("Employee Name:\t\t" + name);
         System.out.println("Employee Address:\t" + address);
-        System.out.println("Marital Status:\t\t" + maritalStatus);
-        System.out.println("Gross Pay:\t\t\t€" + grossPay);
+        System.out.println("Marital Status:\t\t" + (maritalStatus == 's' ? "Single": "Married"));
+        System.out.println("Gross Pay:\t\t\t€" + df.format(grossPay));
 
-        System.out.printf("\nFor gross €%.2f, your total tax is €%.2f and netpay is €%.2f\n", grossPay, tax, netPay);
+        System.out.printf("\nFor gross €%s, your total tax is €%s and net pay is €%s\n", df.format(grossPay),
+                df.format(tax), df.format(netPay));
 
         System.out.println("\n[ Security Feature ]");
         System.out.print("Enter Password: ");
         inputPassword = input.nextLine();
-        input.nextLine();
 
         if (inputPassword.equals(PASSWORD)) {
             System.out.println("Password matched!");
