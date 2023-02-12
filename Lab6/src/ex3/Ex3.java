@@ -1,5 +1,7 @@
 package ex3;
 
+import java.text.DecimalFormat;
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -13,6 +15,9 @@ public class Ex3 {
     public static void main(String[] args) {
         // Scanner
         Scanner input = new Scanner(System.in);
+        // Decimal format
+        DecimalFormat df = new DecimalFormat("#,##0.00");
+        // Variables
         String name;
         double sales;
 
@@ -40,20 +45,30 @@ public class Ex3 {
 
         // Calculating max sales and retrieving salesman name using index
         double maxSales = 0;
-        int salesIndex = -1;
+        double minSales = salesList[0];
+        int maxSalesIndex = -1;
+        int minSalesIndex = -1;
         for (int i = 0; i < salesList.length; i++) {
             if (salesList[i] > maxSales) {
                 maxSales = salesList[i];
-                salesIndex = i;
-            }// for loop
+                maxSalesIndex = i;
+            }// if-statement
+
+            if (salesList[i] < minSales) {
+                minSales = salesList[i];
+                minSalesIndex = i;
+            }// if-statement
         }// for loop
 
-        System.out.printf("The largest sales is €%.2f made by %s", maxSales, salesmanNameList[salesIndex]);
+        // Output
+        System.out.printf("The largest sales is €%s made by %s\n", df.format(maxSales), salesmanNameList[maxSalesIndex]);
+        System.out.printf("The minimum sales is €%s made by %s\n", df.format(minSales), salesmanNameList[minSalesIndex]);
+        System.out.printf("Total Overall Sales: €%s\n\n", df.format(Arrays.stream(salesList).sum()));
 
-        System.out.println("\n\n[Sales Report]");
+        System.out.println("[Sales Report]");
         System.out.printf("%-15s%-15s\n", "Salesman", "Sales");
         for (int i = 0; i < salesmanNameList.length; i++) {
-            System.out.printf("%-15s€%-15.2f\n", salesmanNameList[i], salesList[i]);
+            System.out.printf("%-15s€%-15s\n", salesmanNameList[i], df.format(salesList[i]));
         }// for loop
     }// Main
 }// Class - Ex3

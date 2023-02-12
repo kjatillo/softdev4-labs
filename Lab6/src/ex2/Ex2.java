@@ -57,7 +57,7 @@ public class Ex2 {
             if (voteArray[i] > maxVote) {
                 maxVote = voteArray[i];
                 voteIndex = i;
-            }// for loop
+            }// if-statement
         }// for loop
 
         System.out.println("\nTotal Votes: " + totalVotes);
