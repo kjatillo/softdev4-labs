@@ -19,18 +19,17 @@ public class Ex4 {
             num += 2;
         }// for loop
 
-        for (int i = 0; i < numsArray.length; i++) {
-            if (i == 19) {
-                numsArray[i][1] = numsArray[i][0];
+        for (int row = 0; row < numsArray.length; row++) {
+            if (row == 19) {
+                numsArray[row][1] = numsArray[row][0];
             } else {
-                numsArray[i][1] = numsArray[i][i + 1];
-            }
+                numsArray[row][1] = numsArray[row][0] + numsArray[row + 1][0];
+            }// if else
         }// for loop
 
-        System.out.printf("%-7s%-7s%-7s", "Row", "Col0", "Col1");
+        System.out.printf("%-7s%-7s%-7s\n", "Row", "Col0", "Col1");
         for (int i = 0; i < numsArray.length; i++) {
-            System.out.printf("%-7d%-7d%-7d", i, numsArray[i][0], numsArray[i][1]);
-            System.out.println(numsArray[i][0]);
-        }
+            System.out.printf("%-7d%-7d%-7d\n", i, numsArray[i][0], numsArray[i][1]);
+        }// for loop
     }// Main
 }// Class - Ex4
