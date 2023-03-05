@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="644b278e-0ed7-4d75-a285-227bdd40405f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Lab10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/Lab10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/out/production/Lab10/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/out/production/Lab10/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/out/production/Lab10/TestUndergraduate.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/out/production/Lab10/TestUndergraduate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab10/out/production/Lab10/Undergraduate.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab10/out/production/Lab10/Undergraduate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/Lab2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3/Lab3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab4/Lab4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5/Lab5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/Lab6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7/Lab7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8/Lab8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab8/src/ex2/TestStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab8/src/ex2/TestStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/Lab9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/TestEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/TestEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/TestTrainee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/TestTrainee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/Trainee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex1/Trainee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex2/BasePlusCommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex2/BasePlusCommissionEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex2/CommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex2/CommissionEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex2/TestEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex2/TestEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/Motorbike.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/Motorbike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/TestCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/TestCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/TestMotorbike.class" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9/out/production/Lab9/ex3/TestMotorbike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2Tut/Week2Tut.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3Tut/Week3Tut.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4Tut/Week4Tut.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week5Excercise/Week5Excercise.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2MZZWtgWsUwvd3ZxQS3tEJK95TB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Programming/Java/TUD/softdev4-labs",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="644b278e-0ed7-4d75-a285-227bdd40405f" name="Changes" comment="" />
+      <created>1677977099333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677977099333</updated>
+      <workItem from="1677977100563" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
