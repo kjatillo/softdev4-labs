@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab10/Lab10.iml" filepath="$PROJECT_DIR$/Lab10/Lab10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2/Lab2.iml" filepath="$PROJECT_DIR$/Lab2/Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab3/Lab3.iml" filepath="$PROJECT_DIR$/Lab3/Lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab4/Lab4.iml" filepath="$PROJECT_DIR$/Lab4/Lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab5/Lab5.iml" filepath="$PROJECT_DIR$/Lab5/Lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab6/Lab6.iml" filepath="$PROJECT_DIR$/Lab6/Lab6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab7/Lab7.iml" filepath="$PROJECT_DIR$/Lab7/Lab7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab8/Lab8.iml" filepath="$PROJECT_DIR$/Lab8/Lab8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab9/Lab9.iml" filepath="$PROJECT_DIR$/Lab9/Lab9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2Tut/Week2Tut.iml" filepath="$PROJECT_DIR$/Week2Tut/Week2Tut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3Tut/Week3Tut.iml" filepath="$PROJECT_DIR$/Week3Tut/Week3Tut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week4Tut/Week4Tut.iml" filepath="$PROJECT_DIR$/Week4Tut/Week4Tut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week5Excercise/Week5Excercise.iml" filepath="$PROJECT_DIR$/Week5Excercise/Week5Excercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/softdev4-labs.iml" filepath="$PROJECT_DIR$/.idea/softdev4-labs.iml" />
+    </modules>
+  </component>
+</project>

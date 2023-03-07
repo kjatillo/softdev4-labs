@@ -12,7 +12,7 @@ public class TestStudent {
         // Declaring/initialising Student class instance
         Student student1 = new Student();
         student1.setStudentID("X00190944");
-        student1.setName("Keneith Atillo");
+        student1.setName("Ken");
         student1.setSubject("Software Development");
         student1.setResultCA1(69);
         student1.setResultCA2(99);
