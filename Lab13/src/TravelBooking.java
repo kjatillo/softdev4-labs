@@ -9,19 +9,14 @@ public abstract class TravelBooking {
     private String destination;
     private int miles;
     private double cost;
+    private static int numBookings;
 
     public TravelBooking(String destination, int miles) {
         this.destination = destination;
         this.miles = miles;
+        cost = 0;
+        numBookings++;
     }// Constructor - TravelBooking
-
-    public void setCost(double cost) {
-        this.cost = cost;
-    }// Setting - setCost
-
-    public void setMiles(int miles) {
-        this.miles = miles;
-    }// Setting - setMiles
 
     public double getCost() {
         return cost;
@@ -31,5 +26,13 @@ public abstract class TravelBooking {
         return miles;
     }// Getter - getMiles
 
+    public void setCost(double cost) {
+        this.cost = cost;
+    }// Setting - setCost
+
     public abstract void calculateCost();  // Abstract method - calculateCost
+
+    public static int getNumBookings() {
+        return numBookings;
+    }// Getter - getNumBookings
 }// Class - TravelBooking

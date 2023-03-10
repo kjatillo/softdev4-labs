@@ -20,38 +20,41 @@ public class Cruise extends TravelBooking {
     }// Method - populateTourSchedule
 
     public void checkTourSchedule() {
-        System.out.printf("%-5s", " ");
-        for (String s : daysInWeek) {
-            System.out.printf("%-5s", s);
-        }// for
-        System.out.println();
-        for (int row = 0; row < daysInWeek.length; row++) {
-            System.out.printf("%-5s", "Tour " + (row + 1));
-            for (int col = 0; col < daysInWeek.length; col++) {
-                System.out.printf("%-5s", col);
+        int sum;
+
+        for (int col = 0; col < daysInWeek.length; col++) {
+            sum = 0;
+            for (int row = 0; row < tourSchedule.length; row++) {
+                if(!tourSchedule[row][col])
+                    sum++;
             }// inner for
-            System.out.println();
+            if (sum == 3)
+                System.out.println("No tour scheduled for " + daysInWeek[col]);
         }// outer for
-    }// method - checkTourSchedule
+    }// Method - checkTourSchedule
 
     @Override
     public void calculateCost() {
-        double totalCost = 0;
+        double totalCost;
         double baseRate = .5;
         double tourRate = 5.5;
         double balconyCost = 200;
         int numTours = 0;
-        for (int row = 0; row < daysInWeek.length; row++) {
+        for (int row = 0; row < tourSchedule.length; row++) {
             for (int col = 0; col < daysInWeek.length; col++) {
                 if (tourSchedule[row][col]) {
                     numTours++;
                 }// if
             }// inner for
         }// outer
+
         double baseCost = (getMiles() * baseRate) + (numTours * tourRate);
 
-        if (balcony)
-            totalCost += balconyCost;
+        if (balcony) {
+            totalCost = baseCost + balconyCost;
+        } else {
+            totalCost = baseCost;
+        }// if-else
 
         setCost(totalCost);
     }// Class - calculateCost

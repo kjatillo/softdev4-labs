@@ -24,23 +24,23 @@ public class Flight extends TravelBooking {
         } else if (seatType == 3) {
             return SEAT_DESCRIPTIONS[3];
         } else {
-            return "Invalid input! Enter 0 for Aisle, 1 for Window or 3 for Middle seat.";
+            return "No seat description.";
         }// if-else
     }// Method - getSeatDescription
 
     @Override
     public void calculateCost() {
         double baseCost = 100.0;
-        double firstClassRate = 55;
-        double economyClassRate = 15;
-        double costInMiles;
+        double firstClassRate = 0.55;
+        double economyClassRate = 0.15;
+        double costPerMile;
 
         if (isFirstClass) {
-            costInMiles = getMiles() * firstClassRate;
-            setCost(baseCost + costInMiles);
+            costPerMile = getMiles() * firstClassRate;
+            setCost(baseCost + costPerMile);
         } else {
-            costInMiles = getMiles() * economyClassRate;
-            setCost(baseCost + costInMiles);
+            costPerMile = getMiles() * economyClassRate;
+            setCost(baseCost + costPerMile);
         }// if-else
     }// Method - calculateCost
 }// Class - Flight
