@@ -28,7 +28,7 @@ public class StockItem {
     }// Method - takeOnStock
 
     public void issueStock(int deductQty) {
-        if ((inStock - deductQty) > 0 && (inStock - deductQty) > minQty)
+        if ((inStock - deductQty) > 0)
             inStock -= deductQty;
     }// Method - issueStock
 

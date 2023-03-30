@@ -50,7 +50,7 @@ public class StockItem {
             System.out.println(err.getMessage());
         }// try-catch
 
-        if (newInStockValue > 0 && newInStockValue > minQty)
+        if (newInStockValue > 0)
             inStock -= deductQty;
     }// Method - issueStock
 
