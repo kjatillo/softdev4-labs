@@ -15,7 +15,7 @@ public class Library {
     }// Method - fillList
 
     public void cancelSub(int onlineSubNum) {
-        OnlineJournal sub = (OnlineJournal) rentalList[onlineSubNum];
+        OnlineJournal sub = (OnlineJournal) rentalList[onlineSubNum - 1];
 
         sub.processReturn();
     }// Method - cancelSub
