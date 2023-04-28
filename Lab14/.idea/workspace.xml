@@ -4,83 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f65986cc-1f45-4864-aad9-54ae3c909297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DartsTournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestTournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tournament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab16/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab16/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab16/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab16/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab16/Lab16.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab17/src/ex3/MotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab17/src/ex3/TestMotherBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/Lab18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/src/ex1/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab18/src/ex1/Passenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/OnlineJournal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/OnlineJournal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Rental.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/out/production/CA1X00190944AtilloKeneith/ex1/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/src/ex1/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CA1X00190944AtilloKeneith/src/ex1/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab13/out/production/Lab13/Cruise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab13/out/production/Lab13/Cruise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab16/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab14.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/abbeytours/BusTour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/abbeytours/CA1AbbeyTours.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/abbeytours/TestBusTour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/abbeytours/Tour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/acrepromotions/CA1AcrePromotions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/acrepromotions/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/acrepromotions/MusicConcert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/acrepromotions/TestConcert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/darts/DartsTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/darts/TestTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/darts/Tournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/soccer/Competition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/soccer/FootballCompetition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12022/soccer/TestCompetition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/abbeytours/BusTour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/abbeytours/CA1AbbeyTours.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/abbeytours/TestBusTour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/abbeytours/Tour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/acrepromotions/CA1AcrePromotions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/acrepromotions/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/acrepromotions/MusicConcert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/acrepromotions/TestConcert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/darts/DartsTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/darts/TestTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/darts/Tournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/rugbycompetition/SixNations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/rugbycompetition/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/rugbycompetition/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/soccer/Competition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/soccer/FootballCompetition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CA12023/soccer/TestCompetition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab 14/darts/DartsTournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab 14/darts/TestTournament1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab 14/darts/TestTournament2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab 14/darts/Tournament.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/darts/DartsTournament.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/darts/TestTournament1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/darts/TestTournament2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/darts/Tournament.java" beforeDir="false" />
-    </list>
+    <list default="true" id="f65986cc-1f45-4864-aad9-54ae3c909297" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680380411965</updated>
-      <workItem from="1680380413090" duration="1584000" />
+      <workItem from="1680380413090" duration="2013000" />
     </task>
     <servers />
   </component>
