@@ -20,7 +20,6 @@ public class RefuseTruck {
         this.ratePerKilogram = ratePerKilogram;
         numBinsCollected = 0;
         numBinsDeclined = 0;
-        totalWeight = 0;
     }// Constructor - RefuseTruck
 
     public int getNumBinsCollected() {
@@ -37,26 +36,29 @@ public class RefuseTruck {
 
     public boolean collectBin(double binWeight) {
         final double WEIGHT_LIMIT = 100;
+        boolean overweight = false;
 
         if (binWeight <= WEIGHT_LIMIT) {
             numBinsCollected++;
             totalWeight += binWeight;
         } else if (binWeight > WEIGHT_LIMIT) {
             System.out.println("Bin is over the 100kg weight limit. Collection has been declined!");
+            numBinsDeclined++;
+            overweight = true;
         }// if-else
 
-        return true;
+        return overweight;
     }// Method - collectBin
 
     public void printStats() {
+        System.out.println();
         System.out.println("Bins Collected: " + numBinsCollected);
         System.out.println("Bins Declined: " + numBinsDeclined);
 
         double averageBinWeight = totalWeight / numBinsCollected;
-        System.out.println("Average Bin Weight: " + averageBinWeight + " Kg");
+        System.out.printf("Average Bin Weight: %.2fKg\n", averageBinWeight);
 
-        double totalCostCollectedBin = ratePerKilogram * numBinsCollected;
-        double averageCostCollectedBin = totalCostCollectedBin / numBinsCollected;
+        double averageCostCollectedBin = (totalWeight / numBinsCollected) * ratePerKilogram;
         System.out.println("Average Cost of Collected Bins: €" + df.format(averageCostCollectedBin));
     }// Method - printStats
 }// Class RefuseTruck
