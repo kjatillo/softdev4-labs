@@ -13,11 +13,11 @@ public class Passenger {
     private double[] bagWeightList;
     private char[] bagSizeList;
 
-    public Passenger(String name, int age) {
+    public Passenger(String name, int age, double[] bagWeightList, char[] bagSizeList) {
         this.name = name;
         this.age = age;
-        bagWeightList = new double[3];
-        bagSizeList = new char[3];
+        this.bagWeightList = bagWeightList;
+        this.bagSizeList = bagSizeList;
     }// Constructor - Passenger
 
     public String getName() {
@@ -35,6 +35,22 @@ public class Passenger {
     public char[] getBagSizeList() {
         return bagSizeList;
     }// Getter - getBagSizeList
+
+    public void setName(String name) {
+        this.name = name;
+    }// Setter - setName
+
+    public void setAge(int age) {
+        this.age = age;
+    }// Setter - setAge
+
+    public void setBagWeightList(double[] bagWeightList) {
+        this.bagWeightList = bagWeightList;
+    }// Setter - setBagWeightList
+
+    public void setBagSizeList(char[] bagSizeList) {
+        this.bagSizeList = bagSizeList;
+    }// Setter - setBagSizeList
 
     public double calcBaggageCharge() {
         final double WEIGHT_MEDIUM_LIMIT = 15.0;

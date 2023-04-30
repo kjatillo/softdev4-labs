@@ -17,26 +17,25 @@ public class Flight {
     public Flight(int capacity, double flightDuration) {
         this.capacity = capacity;
         this.flightDuration = flightDuration;
-        passengerList = new Passenger[3];
+        passengerList = new Passenger[4];
     }// Constructor - Flight
 
     public void fillList(Passenger passenger, int index) {
         passengerList[index] = passenger;
-        capacity -= 1;
     }// Method - fillList
 
     public void printList() {
         DecimalFormat df = new DecimalFormat("##0.00");
 
         for (Passenger passenger: passengerList) {
-            System.out.println("Passenger Name: " + passenger.getName());
+            System.out.println("\nPassenger Name: " + passenger.getName());
             System.out.println("Passenger Age: " + passenger.getAge());
             System.out.println("Baggage Charge: €" + df.format(passenger.calcBaggageCharge()));
         }// for
     }// Method - printList
 
     public int checkAvailability() {
-        return capacity;
+        return capacity - passengerList.length;
     }// Method/Getter - checkAvailability
 
     public String calcOldestPassenger() {
