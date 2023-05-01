@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a367271-c060-4601-b823-988604381cee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICE11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part1/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part2/NameComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part2/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part3/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part3/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part4/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part4/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part5/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1part5/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1skeleton/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex1skeleton/TestEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part1/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part1/DVDCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part1/TestDVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part2/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part2/DVDCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part2/TestDVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part3/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part3/DVDCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex2part3/TestDVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex3/TestHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex4/Journey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex4/LUASJourney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/Lab22.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab22/src/Student.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2PCpVRxX2ombklCQ5utpDrdbeZV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Programming/Java/TUD/softdev4-labs/ICE11/src/ex2part3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Programming\Java\TUD\softdev4-labs\ICE11\src\ex2part3" />
+      <recent name="E:\Programming\Java\TUD\softdev4-labs\ICE11\src\ex2part2" />
+      <recent name="E:\Programming\Java\TUD\softdev4-labs\ICE11\src\ex1part5" />
+      <recent name="E:\Programming\Java\TUD\softdev4-labs\ICE11\src\ex1part4" />
+      <recent name="E:\Programming\Java\TUD\softdev4-labs\ICE11\src\ex1part3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\Java\TUD\softdev4-labs\ICE11\src\ex2part1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestHashSet">
+    <configuration name="TestDVD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex2part1.TestDVD" />
+      <module name="ICE11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex2part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex3.TestHashSet" />
+      <module name="ICE11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex1part5.TestEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex1part5.TestEmployee" />
+      <module name="ICE11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1part5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex2part2.TestDVD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex2part2.TestDVD" />
+      <module name="ICE11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex2part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex2part3.TestDVD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex2part3.TestDVD" />
+      <module name="ICE11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex2part3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestHashSet" />
+        <item itemvalue="Application.ex2part2.TestDVD" />
+        <item itemvalue="Application.ex2part3.TestDVD" />
+        <item itemvalue="Application.TestDVD" />
+        <item itemvalue="Application.ex1part5.TestEmployee" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a367271-c060-4601-b823-988604381cee" name="Changes" comment="" />
+      <created>1682970940586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682970940586</updated>
+      <workItem from="1682970941841" duration="3745000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
